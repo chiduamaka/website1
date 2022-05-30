@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Lecture Notes</title>
+		<link rel="stylesheet" href="sample_website.css">
+		<style>
+			nav a{
+				color: gray;
+				text-decoration: none;
+				line-height: 50px
+			}
+			a:hover{
+				color: blue
+			}
+			h3{
+				color: blue
+			}
+			input{
+				text-align: center
+			}
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div class="navbar">
+				<b style="color: blue; font-size: 20px; float: left; padding: 8px 16px;">SummaryNotes</b>
+				<a href='sample_website3_Home.html'>Home</a>
+				<a href='sample_website3_lecture1.html'>Lecture Summary</a>
+				<a href='sample_website3_myCV.html'>Lab Summary</a>
+			</div>
+		</div>
+		<div style="border: 1px solid blue; border-radius: 25px; height:1100px; width:250px; float:left; padding-left:20px">
+			<nav>
+				<br><br><a href="sample_website3_myCV.html">My CV</a><br>
+				<a href="sample_website3_form.html">Demo medical form</a><br>
+			</nav>
+		</div>	
+		<label>Patient Search</label>
+		<input type="search"><br><br>
+		<label>Please rate our service</label>
+		<input type="range">
+		<h3><u>Patient Medical Information</u></h3>
+		<form>
+			<fieldset>
+				<legend><b>Medical ID</b></legend>
+				<label>First Name:</label>
+				<input type="text"><br><br>
+				<label>Last Name:</label>
+				<input type="text"><br><br>
+				<div style="border: 1px solid black; float:right; padding:10px">
+					<label>Profile pic.:</label><br>
+					<input type="image" img src="image3\gyoen.jpg" style="width:150px; height:150px">
+				</div>
+				<label>Tel. no.:<label>
+				&nbsp&nbsp&nbsp&nbsp&nbsp<input type="tel"><br><br>
+				<label>Email:</label>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="email"><br><br>
+				<label>Gender:&nbsp</label>
+				<label>Male</label>
+				<input type="checkbox">
+				<label>Female</label>
+				<input type="checkbox"><br><br>
+				<label>Date of birth:</label>
+				&nbsp&nbsp&nbsp&nbsp<input type="datetime-local"><br><br>
+				<label>Place of birth:</label>
+				&nbsp&nbsp&nbsp<input type="text"><br><br>
+				<label>Blood Group:</label>
+				&nbsp&nbsp&nbsp&nbsp<input type="text"><br><br>
+				<label>Patient ID no.:</label>
+				&nbsp&nbsp<input type="password"><br><br>
+				<label>Height (in cm.):</label>
+				<input type="number"><br><br>
+				<label>weigth (in kg.):</label>
+				&nbsp<input type="number"><br><br>
+				<label>Eye color:</label>
+				&nbsp<input type="color"><br><br>
+				<label>Skin color:</label>
+				<input type="color"><br><br>
+				<p><u>Medical Description</u> (medical conditions that need to be accounted for):</p>
+				<textarea rows="10" col="5"></textarea><br><br>
+				<input type="reset"><br><br>
+				<input type="submit" onclick="alert('Your request has been sent!')"><br><br>
+			</fieldset><br>
+		<form>
+	</body>
+</html>
