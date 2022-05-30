@@ -1,7 +1,7 @@
 /* Website Style Sheet */
 /* this is for the home page */
 body{
-	background-image: url("image3/back2.jpg");
+	background-image: url("back2.jpg");
 }
 #all{
 	width: 800px;
